@@ -1,0 +1,33 @@
+{"skills":[
+    {
+        "skillTitle": "Android App Development",
+        "percentage": "100"
+    },
+    {
+        "skillTitle": "HTML / CSS / Javascript",
+        "percentage": "90"
+    },
+    
+    {
+        "skillTitle": "iOS App Development",
+        "percentage": "75"
+    
+    },
+    {
+        "skillTitle": "React / Redux",
+        "percentage": "80"
+    
+    }
+    ,
+    {
+        "skillTitle": "2D game development Unity",
+        "percentage": "60"
+    
+    },
+    {
+        "skillTitle": "Full Stack Developer (React, Node.js, Express.js, Mongo)",
+        "percentage": "85"
+    
+    }
+]
+}

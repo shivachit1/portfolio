@@ -1,22 +1,280 @@
-.App {
+.page-container {
+   height: 100%;
+   background-color: rgba(248, 68, 14, 0.815);
+   overflow: hidden;
+ }
+ 
+.navbar{
+   position: sticky;
+   top:0; 
+   z-index:9999;
+   color: honeydew;
+   background-color: rgb(245, 129, 109);
+}
+
+
+
+.link{
+   margin: 5px;
+  font-size: 16px;
+  
+}
+.link:hover{
+  font-size: 20px;
+  border-bottom:2px solid rgb(10, 81, 223);
+}
+.navbar > .active{
+  
+  scale: 1.5%;
+   font-style: bold;
+   color: rgba(0, 128, 0, 0);
+}
+
+.profile-container {
+   border:2px solid rgba(15, 187, 101, 0);
+   border-radius: 50px;
+   text-align: center;
+   
+}
+
+.profile{
+   display: inline-block;
+}
+ .profileImage{
+   width: 70px;
+   height: 70px;
+   margin-right: 16px;
+   border: 2px solid rgb(245, 247, 246);
+   border-radius: 50px;
+   
+ }
+ .my-info{
+   height: auto;
+   position:relative;
+    top:10px;
+   display: inline-block;
+ }
+ .black-text{
+  color: rgb(14, 13, 13);
+  bottom: 0;
+}
+ .white-text{
+   color: rgb(250, 245, 245);
+ }
+ .address{
+   color: rgb(250, 245, 245);
+   font-size: 12px;
+   bottom: 0;
+ }
+ .home-greeting{
   text-align: center;
+  margin: 10%;
+  height: 100%;
+  padding: 60px;
+}
+ .about-me{
+   text-align: center;
+   margin: 10%;
+   display: inline-block;
+ }
+ a {
+  color: ivory;
+}
+ .hireme-button{
+   margin: 16px;
+  background-color:green;
+  color: ivory;
+}
+.hireme-button:hover{
+  margin: 16px;
+ background-color:rgb(19, 0, 128);
+ color: ivory;
+}
+ .sub-header{
+   text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   font-size: 24px;
+   font-style: initial;
+   color: ivory;
+ }
+
+ .footer {
+  position: fixed;
+  width: 200px;
+  height: 300px;
+  right: 30px;
+  bottom: 20px;
+  background-color: rgb(253, 255, 253);
+  color: white;
+  text-align: left;
+}
+.footer-title{
+  width: 90%;
+  position: relative;
+  padding: 10px;
+  background-color: green;
+  display: inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
+.myProjects{
+  margin-top: 20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .outer {
+   width: 100%;
+   margin-left: 10%;
+   margin-right: 10%;
+   position: relative;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   -webkit-overflow-scrolling: touch;
+   color: ivory;
+   
+}
+
+.inner-div {
+   width: 80%;
+   margin-right: 10%;
+   margin-left: 10%;
+   margin-bottom: 10%;
+   margin-bottom: 20px;
+   padding: 20px;
+   text-align: center;
+   float: none;
+   margin: 2% 0.35%;
+   border-radius: 25px;
+   transition: width 2s ease-in-out;
+}
+
+.inner-div div.project-info{
+  background-color: rgba(214, 73, 30, 0.404);
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.inner-div button{
+  background-color: green;
+}
+
+.contact-div{
+  text-align: center;
+  padding: 16px;
+  margin-top: 20px;
+  background-color: rgba(22, 21, 21, 0.74);
+  color: azure;
+}
+
+
+.contact-div img{
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  border: 1px solid rgb(245, 247, 246);
+  border-radius: 15px;
+}
+
+.contact-follow{
+  display: inline-block;
+  padding: 8px;
+}
+.skills-main{
+  text-align: center;
+  height: auto;
+  overflow:scroll;
+  
+}
+
+.progress-bar{
+  position: relative;
+  height: 20px;
+  width: 100%;
+  background-color: ivory;
+  border-radius: 50px;
+  border: 1px solid ivory;
+}
+
+.filler{
+  background: green;
+  height: 100%;
+  border-radius: inherit;
+  transition: width 2s ease-in-out;
+}
+
+
+
+.wrapper{
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: rgba(214, 73, 30, 0.404);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.header-6{
+  display: inline-flex;
+}
+.right-text{
+  text-align: right;
+  color: rgb(245, 237, 237);
+}
+
+
+.main {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #09d3ac;
+.image {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  display: block;
+  line-height: 100px; 
+  
 }
+.ajna-image {
+  width: 90%;
+  height: 90%;
+  
+  align-self: center;
+  font-size: 25px;
+  display: block; 
+  
+}
+
+.image-container {
+  vertical-align: middle;
+  display: inline-block;
+  width: 60%;
+  height: 70%;
+  margin-left: 10%;
+  margin-right: 10%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  
+}
+
+
+
+
+
+
+
+
+
