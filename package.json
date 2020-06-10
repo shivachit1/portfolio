@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://portfoliowebsite-8eb68.web.app/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.5.1",
