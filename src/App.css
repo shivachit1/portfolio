@@ -153,9 +153,6 @@
   border-radius: 50px;
 }
 
-.inner-div button{
-  background-color: green;
-}
 
 .contact-div{
   text-align: center;
@@ -268,6 +265,13 @@
   overflow-x: auto;
   overflow-y: hidden;
   
+}
+
+.link-button{
+  background-color: green;
+}
+.github-button{
+  background-color: blue;
 }
 
 

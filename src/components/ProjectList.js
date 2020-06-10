@@ -42,8 +42,8 @@ class ProjectList extends Component {
 
                                 </div>
                                 <p className="black-white">{details}</p>
-                                <a href={info.downloadLink}><Button color="info">View Website</Button></a>
-
+                                <a className="link" href={info.downloadLink}><Button className="link-button">View Link</Button></a>
+                                <a className="link" href={info.githubLink}><Button className="github-button">View Github</Button></a>
                             </div>
 
 

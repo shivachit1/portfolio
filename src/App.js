@@ -6,7 +6,6 @@ import AppNavbar from './components/AppNavbar';
 import ProjectList from './components/ProjectList';
 import Contact from './components/Contact';
 import SkillsComponent from './components/SkillsComponent';
-import AboutMe from './components/AboutMe';
 
 
 class App extends Component {
