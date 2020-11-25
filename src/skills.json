@@ -1,32 +1,40 @@
 {"skills":[
+    
     {
-        "skillTitle": "Android App Development",
+        "skillTitle": "Frontend Developer",
+        "languages":"React, Hooks, Redux, Redux thunk, Vue, Vuex, Axios",
         "percentage": "100"
     },
     {
-        "skillTitle": "HTML / CSS / Javascript",
+        "skillTitle": "Backend Developer",
+        "languages":"Express, Node, Java, REST",
         "percentage": "90"
-    },
     
+    }
+    ,
     {
-        "skillTitle": "iOS App Development",
-        "percentage": "75"
+        "skillTitle": "Android Developer",
+        "languages":"Java, Kotlin, Android APis",
+        "percentage": "95"
     
-    },
+    }
+    ,
     {
-        "skillTitle": "React / Redux",
+        "skillTitle": "iOS Developer",
+        "languages":"Swift, Xcode, Cocoa",
         "percentage": "80"
     
     }
     ,
     {
-        "skillTitle": "2D game development Unity",
-        "percentage": "60"
+        "skillTitle": "Game development",
+        "languages":"Unity Engine, C#, photoshop, UI interfaces, Canvas, Camera handling, Particle System",
+        "percentage": "90"
     
-    },
-    {
-        "skillTitle": "Full Stack Developer (React, Node.js, Express.js, Mongo)",
-        "percentage": "85"
+    },{
+        "skillTitle": "Databases",
+        "languages":"MongoDB, MySQL, Firebase",
+        "percentage": "98"
     
     }
 ]

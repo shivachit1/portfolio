@@ -10,21 +10,26 @@ class SkillsComponent extends Component {
 
         const skills = SkillsData.skills;
 
-        return <div id="skills" className="skills-main">
-            <h6 className="sub-header">Skills</h6>
-            <div>
-                {skills.map(({ skillTitle, percentage }) => (
-                    <div key={skillTitle} className="wrapper">
-                    <h6 className="white-text">{skillTitle}</h6>
-                    <p className="right-text">{percentage}%</p>
-                    <ProgressBar percentage={percentage} />
+        return (
+            <div id="skills">
+                
+                <h3 className="large-text">Skills</h3>
 
-                    </div>
-                ))}
+                <div className="flex-container">
+                    
+                    {skills.map((skill) => (
+                        <div key={skill.skillTitle} className="flex-item-div">
+                            <h5 className="white-text">{skill.skillTitle}</h5>
+                            <div className="skill-info">
+                            <p>{skill.languages}</p>
+                            </div>
+                        </div>
+                    ))}
+
+                </div>
 
             </div>
-
-        </div>;
+        );
     }
 
 }

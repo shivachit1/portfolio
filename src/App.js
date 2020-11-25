@@ -1,8 +1,7 @@
 import React,{Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import HomePageComponent from './components/HomePageComponent';
-import AppNavbar from './components/AppNavbar';
+import Profile from './components/Profile';
 import ProjectList from './components/ProjectList';
 import Contact from './components/Contact';
 import SkillsComponent from './components/SkillsComponent';
@@ -14,12 +13,10 @@ class App extends Component {
   render(){
   return (
    <div>
-        <AppNavbar/>
         <div className="page-container">
-          <HomePageComponent/>
+          <Profile/>
           <SkillsComponent />
           <ProjectList/>
-         
           <Contact/>
         
         </div>

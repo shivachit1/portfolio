@@ -10,11 +10,6 @@
     {
       "src": "../src/images/profilepic.jpg",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "../src/images/profilepic.jpg",
-      "type": "image/png",
       "sizes": "512x512"
     }
   ],

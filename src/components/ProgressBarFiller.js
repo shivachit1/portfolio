@@ -36,7 +36,7 @@ class ProgressBarFiller extends Component {
 
         return (
             <ScrollTrigger className="filler" style={{ width: `${this.state.percentage}%`}} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
-            
+            <p className="right-text">{this.state.percentage}%</p>
             </ScrollTrigger>
         );
     }

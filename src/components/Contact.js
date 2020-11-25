@@ -10,25 +10,39 @@ class Contact extends Component {
     render() {
         return (
 
-            <div id="contact" className="contact-div">
+            <div id="contact">
+            <div className="contact-div">
+                    
+                    
+                    <h4 className="large-text">Looking for Collabration?</h4>
+                    <p> Looking for developer to work on your projects. Always ready to hear ideas.</p>
 
-                <h6>Follow me</h6>
-                <div>
+                    <div className="layout"> 
+                    <a className="link" href={"mailto:shivachit1@gmail.com"}><button className="green-btn">Get in touch</button></a>
+
+                       
+                    </div>
+                    
+    
+                </div>
+                
+                <div className="follow-div">
+                <h4 className="title">Follow me</h4>
                     <div className="contact-follow">
-                        <a className="link" href="https://www.facebook.com/shiva.kalu"><Img className="profileImage" src={FacebookImage}/></a>
+                        <a  href="https://www.facebook.com/shiva.kalu"><Img className="contactImage" src={FacebookImage}/></a>
                         <p>Facebook</p>
                     </div>
                     <div className="contact-follow">
-                        <a className="link" href="https://github.com/shivachit1"><Img className="profileImage" src={GithubImage}/></a>
+                        <a  href="https://github.com/shivachit1"><Img className="contactImage" src={GithubImage}/></a>
                         <p>Github</p>
                     </div>
                     <div className="contact-follow">
-                        <a className="link" href="https://www.instagram.com/cvatiwari/" ><Img className="profileImage" src={InstagramImage}/></a>
+                        <a  href="https://www.instagram.com/cvatiwari/" ><Img className="contactImage" src={InstagramImage}/></a>
                         <p>Instagram</p>
                     </div>
-
+                    <p>© 2020-present Shiva Tiwari. All Rights Reserved.</p>
                 </div>
-                <p className="right-text">© 2020-present Shiva Tiwari. All Rights Reserved.</p>
+                
             </div>
         );
     }
