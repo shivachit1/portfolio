@@ -2,7 +2,7 @@
   <div style="text-align:center;">
     <h2>Portfolio</h2>
     <h4><a href="https://shivatiwari.dev">Visit Website (Hosted on Firebase)</a></h4>
-     <img  width="400" height="200" src="https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/portfolio.png?alt=media&token=cea9222c-fa54-4f4a-ade6-6067bbe3848f"/>
+     <img  width="600" height="400" src="https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/portfolio.png?alt=media&token=cea9222c-fa54-4f4a-ade6-6067bbe3848f"/>
   </div>
   
   <div>
