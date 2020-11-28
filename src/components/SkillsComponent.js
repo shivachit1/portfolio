@@ -2,7 +2,6 @@
 
 import React, { Component } from 'react';
 import SkillsData from '../skills.json';
-import Filler from '../components/ProgressBarFiller';
 
 class SkillsComponent extends Component {
 
@@ -34,15 +33,6 @@ class SkillsComponent extends Component {
 
 }
 
-const ProgressBar = (props) => {
-    return (
-        <div className="progress-bar">
-         
-            <Filler percentage={props.percentage} />
-    
-        </div>
-    )
-}
 
 
 

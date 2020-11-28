@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import FacebookImage from '../images/fb.png';
+import LinkedIn from '../images/linkedIn.png';
 import GithubImage from '../images/github.png';
-import InstagramImage from '../images/instagram.jpg';
-import Img from 'react-image';
 class Contact extends Component {
 
 
@@ -14,7 +12,7 @@ class Contact extends Component {
             <div className="contact-div">
                     
                     
-                    <h4 className="large-text">Looking for Collabration?</h4>
+                    <h4 className="large-text">Looking for Collaboration?</h4>
                     <p> Looking for developer to work on your projects. Always ready to hear ideas.</p>
 
                     <div className="layout"> 
@@ -27,20 +25,13 @@ class Contact extends Component {
                 </div>
                 
                 <div className="follow-div">
-                <h4 className="title">Follow me</h4>
+                        <p className="title">Follow me</p>
                     <div className="contact-follow">
-                        <a  href="https://www.facebook.com/shiva.kalu"><Img className="contactImage" src={FacebookImage}/></a>
-                        <p>Facebook</p>
+                        <a  href="https://www.linkedin.com/in/shiva-tiwari-91b1a884/" target="_blank" rel="noopener noreferrer"><img className="contactImage" src={LinkedIn} alt=""/></a>
+                        <a  href="https://github.com/shivachit1" target="_blank" rel="noopener noreferrer"><img className="contactImage" src={GithubImage} alt=""/></a>
+                        <p>© 2020-present Shiva Tiwari. All Rights Reserved.</p>
                     </div>
-                    <div className="contact-follow">
-                        <a  href="https://github.com/shivachit1"><Img className="contactImage" src={GithubImage}/></a>
-                        <p>Github</p>
-                    </div>
-                    <div className="contact-follow">
-                        <a  href="https://www.instagram.com/cvatiwari/" ><Img className="contactImage" src={InstagramImage}/></a>
-                        <p>Instagram</p>
-                    </div>
-                    <p>© 2020-present Shiva Tiwari. All Rights Reserved.</p>
+                    
                 </div>
                 
             </div>

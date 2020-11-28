@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'reactstrap';
-import Img from 'react-image';
 import MyProjects from '../projects';
-import AjnaChatAppPic from '../images/ajna-app.png';
-import ChickenFly from '../images/chickenfly.png';
-import PortfolioAppPic from '../images/portfolio.png';
 class ProjectList extends Component {
 
 
@@ -30,10 +25,10 @@ class ProjectList extends Component {
                                     </div>
                                     
                                         <div className="project-info">
-                                            <h5 >{project.projectTitle}</h5>
+                                            <h5 className="project-title">{project.projectTitle}</h5>
                                             <p>{project.projectDescription}</p>
-                                            <a className="link" href={project.info.demoLink} target="_blank"><button className="blue-btn">Demo</button></a>
-                                            <a className="link" href={project.info.githubLink} target="_blank"><button className="blue-btn">Code</button></a>
+                                            <a className="link" href={project.info.demoLink} target="_blank" rel="noopener noreferrer"><button className="blue-btn">Demo</button></a>
+                                            <a className="link" href={project.info.githubLink} target="_blank" rel="noopener noreferrer"><button className="blue-btn">Code</button></a>
 
                                         </div>
                                   

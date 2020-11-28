@@ -1,15 +1,5 @@
 
-const project = [{
-        projectTitle: "EventManager",
-        projectDescription: "Vue.js, Vuex, CSS, Router, Netlify",
-        details: "This game is built using Unity Engine and is available on play store for download. The game is targeted over age group more than 13 years older. Main theme of this game is to save butter fy during rainy season and help it find food (flower on the way.) ",
-        imageurl:  'https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/EventManager.png?alt=media&token=7779e0ab-7da7-49e4-bdf2-a6971188cd0a',
-        info: {
-            devices: "Compatiable to all android devices",
-            demoLink: "https://priceless-bassi-d229f3.netlify.app/#/",
-            githubLink:"https://github.com/shivachit1/EventManager"
-            }
-    },
+const project = [
     {
         projectTitle: "Frames",
         projectDescription: "React.js, Redux, CSS, Netlify",
@@ -21,6 +11,17 @@ const project = [{
             githubLink:"https://github.com/shivachit1/Frames"
             }
     
+    },
+    {
+        projectTitle: "EventManager",
+        projectDescription: "Vue.js, Vuex, CSS, Router, Netlify",
+        details: "This game is built using Unity Engine and is available on play store for download. The game is targeted over age group more than 13 years older. Main theme of this game is to save butter fy during rainy season and help it find food (flower on the way.) ",
+        imageurl:  'https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/EventManager.png?alt=media&token=7779e0ab-7da7-49e4-bdf2-a6971188cd0a',
+        info: {
+            devices: "Compatiable to all android devices",
+            demoLink: "https://priceless-bassi-d229f3.netlify.app/#/",
+            githubLink:"https://github.com/shivachit1/EventManager"
+            }
     },
     {
         projectTitle: "My portfolio Website",
