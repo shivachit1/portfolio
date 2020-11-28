@@ -7,7 +7,6 @@ class ProjectList extends Component {
     render() {
 
         const projects = MyProjects;
-        console.log(projects);
 
         return (
             <div id="myProjects" className="myProjects">

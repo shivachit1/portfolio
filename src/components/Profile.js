@@ -1,6 +1,5 @@
 import React from 'react';
 import { Component } from 'react';
-import Profilepic from "../images/profilepic.jpg";
 import { Link } from 'react-scroll';
 import cv from '../shivatiwariCV.pdf';
 class Profile extends Component {
@@ -12,7 +11,7 @@ class Profile extends Component {
           
             <div className="profile-container">
                 
-                <img className="profileImage" src={Profilepic} alt="Profile Pic"></img>
+                <img className="profileImage" src="https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/profilepic.jpg?alt=media&token=fde2c30d-5497-45d3-8fab-f93f69422d44" alt="Profile Pic"></img>
                 
                 <div id="homepage" className="home-greeting">
                     

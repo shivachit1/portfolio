@@ -3,12 +3,12 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "../src/images/profilepic.jpg",
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/profilepic.jpg?alt=media&token=fde2c30d-5497-45d3-8fab-f93f69422d44",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "../src/images/profilepic.jpg",
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/profilepic.jpg?alt=media&token=fde2c30d-5497-45d3-8fab-f93f69422d44",
       "type": "image/png",
       "sizes": "512x512"
     }
