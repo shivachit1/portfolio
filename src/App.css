@@ -22,15 +22,57 @@
 
 }
 
-span{
+strong{
   font-size: 24px;
   color: rgb(83, 173, 221);
   margin: 5px;
 }
 .large-text{
  color: rgb(255, 255, 255);
- margin: 16px;
+ margin-top: 16px;
  text-align: center;
+}
+.download-cv-btn{
+  background-color: rgba(34, 97, 145, 0);
+  color: rgb(252, 252, 252);
+  padding: 12px;
+  height: fit-content;
+  outline: 0 !important;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 3px solid rgb(24, 126, 139);
+  animation-name: scaleUpDown;
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.see-projects-btn{
+  background-color: rgba(6, 190, 67, 0);
+  color: rgb(252, 252, 252);
+  padding: 12px;
+  height: fit-content;
+  outline: 0 !important;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 3px solid rgba(27, 167, 97, 0.63);
+  animation-name: scaleUpDown;
+  animation-delay: 400ms;
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.download-cv-btn:hover{
+  background-color: rgb(24, 126, 139);
+  animation-duration: 000ms;
+}
+.see-projects-btn:hover{
+  background-color: rgba(35, 196, 129, 0.815);
+  animation-duration: 000ms;
 }
 
  .green-btn{
@@ -44,6 +86,7 @@ span{
   border-radius: 10px;
   font-weight: bold;
   border: 3px solid rgba(27, 167, 97, 0.63);
+  
 }
 .green-btn:hover{
   background-color: rgba(35, 196, 129, 0.815);
@@ -65,6 +108,7 @@ span{
 }
 .blue-btn:hover{
   background-color: rgb(24, 126, 139);
+  animation-duration: 000ms;
 }
 
 
@@ -103,6 +147,7 @@ span{
   height: 100%;
   padding: 40px;
 }
+
  
  a {
   color: ivory;
@@ -283,10 +328,22 @@ span{
 }
 
 
-
-
-
-
-
+@keyframes scaleUpDown {
+  0%{
+    transform:rotate(0.5deg) scale(1.0);
+  }
+  25%{
+    transform:rotate(-0.5deg) scale(0.93);
+   }
+ 50%{
+  transform:rotate(0deg) scale(0.93);
+ }
+ 75%{
+  transform:rotate(0.5deg) scale(0.93);
+ }
+ 100%{
+  transform:rotate(-0.5deg) scale(1.0);
+ }
+}
 
 
