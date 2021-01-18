@@ -12,19 +12,25 @@ class SkillsComponent extends Component {
         return (
             <div id="skills">
                 
-                <h3 className="large-text">Skills</h3>
+                
 
-                <div className="flex-container">
+                <div className="skills">
                     
+                <div className="card-view">
+                <h4 className="green-text" style={{textAlign:"center"}}>Skills</h4>
                     {skills.map((skill) => (
-                        <div key={skill.skillTitle} className="flex-item-div">
+                        <div className="skill-info" key={skill.skillTitle}>
                             <h5 className="white-text">{skill.skillTitle}</h5>
-                            <div className="skill-info">
-                            <p>{skill.languages}</p>
-                            </div>
+                            <p className="green-text">{skill.languages}</p>
+                            {skills.indexOf(skill) < skills.length - 1 ?
+                            <div className="line"></div>
+                            :
+                            null
+                            }
+                            
                         </div>
                     ))}
-
+                </div>
                 </div>
 
             </div>

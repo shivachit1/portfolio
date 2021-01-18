@@ -1,8 +1,8 @@
 .page-container {
    height: 100%;
-   background-color: #0c0c0c;
+   background-color: #234347;
    overflow: hidden;
-   color: rgb(148, 165, 158);
+   color: #C8DBDE;
  }
  
  .layout{
@@ -11,30 +11,33 @@
  .profileImage{
   width: 300px;
   height: 300px;
-  border: 4px solid rgba(228, 215, 215, 0.26);
+  border: 2px solid #fbfffc7c;
   border-radius: 300px;
   margin: 40px;
-  box-shadow: 0px 0px 40px 40px rgba(228, 215, 215, 0.39); 
 }
 .profileImage:hover{
- box-shadow: 0px 0px 50px 50px rgba(221, 119, 119, 0.39);
+ box-shadow: 0px 0px 20px 20px #c8dbde8c;
   transform: rotate(360deg);
 
 }
 
 strong{
-  font-size: 24px;
-  color: rgb(83, 173, 221);
+  font-size: 18px;
+  color: rgba(27, 167, 97, 0.63);
   margin: 5px;
 }
-.large-text{
- color: rgb(255, 255, 255);
- margin-top: 16px;
- text-align: center;
+.white-text{
+  color: #C8DBDE;
+ }
+ 
+.green-text{
+  color: rgba(27, 167, 97, 0.63);
+ margin-bottom:16px;
+ font-weight: bold;
 }
 .download-cv-btn{
   background-color: rgba(34, 97, 145, 0);
-  color: rgb(252, 252, 252);
+  color: rgb(255, 255, 255);
   padding: 12px;
   height: fit-content;
   outline: 0 !important;
@@ -42,7 +45,7 @@ strong{
   border: none;
   border-radius: 10px;
   font-weight: bold;
-  border: 3px solid rgb(24, 126, 139);
+  border: 3px solid rgba(27, 167, 97, 0.63);
   animation-name: scaleUpDown;
   animation-duration: 800ms;
   animation-iteration-count: infinite;
@@ -53,6 +56,7 @@ strong{
   background-color: rgba(6, 190, 67, 0);
   color: rgb(252, 252, 252);
   padding: 12px;
+  margin-top:15px;
   height: fit-content;
   outline: 0 !important;
   text-decoration: none;
@@ -67,7 +71,7 @@ strong{
   animation-timing-function: linear;
 }
 .download-cv-btn:hover{
-  background-color: rgb(24, 126, 139);
+  background-color: rgba(35, 196, 129, 0.815);
   animation-duration: 000ms;
 }
 .see-projects-btn:hover{
@@ -92,63 +96,20 @@ strong{
   background-color: rgba(35, 196, 129, 0.815);
 }
 
-.blue-btn{
-  background-color: rgba(34, 97, 145, 0);
-  color: rgb(252, 252, 252);
-  padding: 8px;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: fit-content;
-  outline: 0 !important;
-  text-decoration: none;
-  border: none;
-  border-radius: 10px;
-  border: 3px solid rgb(24, 126, 139);
-  font-weight: bold;
-}
-.blue-btn:hover{
-  background-color: rgb(24, 126, 139);
-  animation-duration: 000ms;
-}
-
-
 .profile-container {
    border:2px solid rgba(15, 187, 101, 0);
-   border-radius: 50px;
-   text-align: center;
    margin-top: 30px;
-   
-}
-
- .cardView{
-   display: inline-block;
-   padding:4px;
-   margin: 10px;
-   background-color: rgb(216, 183, 183);
-   border-radius: 10px;
-   box-shadow:4px 8px solid green;
- }
- .white-text{
-  padding: 20px;
-  border-radius: 20px 20px 0px 0px;
-  background-color: rgb(255, 255, 255);
-  color: black;
- }
- .light-white-text{
-  color: rgb(165, 148, 148);
-}
- .address{
-   color: rgb(12, 8, 228);
-   font-size: 12px;
-   bottom: 0;
- }
- .home-greeting{
-  text-align: center;
-  height: 100%;
-  padding: 40px;
+   text-align: center;  
 }
 
  
+ .home-greeting{
+  text-align: center;
+  width: auto;
+  padding: 20px;
+  
+}
+
  a {
   color: ivory;
   margin-top: 30px;
@@ -162,66 +123,53 @@ strong{
  justify-content: center;
  
 }
-.flex-item-div{
-  position: relative;
- flex-grow: 1;
- flex: 0 1 calc(33% - 2.9em);
- height: auto;
- display: inline-block;
- text-align: left;
- margin: 20px;
- border-radius: 20px 20px;
- background-color: #1e201f;
+
+.skills{
+  display: flex;
+  justify-content: center;
 }
-.flex-item-div:hover{
-  transform: scale(1.05);
+
+.card-view{
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 20px;
+  margin-bottom: 50px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 20px 20px;
+  background-color: #1a3336b0;
+}
+
+.card-view:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .skill-info{
-  padding :20px;
-  display: inline-block;
+  padding :5px;
 }
-.progress-bar{
-  position: absolute;
-  height: 30px;
-  width: 100%;
-  bottom: 0;
-  background-color: ivory;
-  border-radius: 0px 0px 20px 20px;
+.line{
+  height: 3px;
+  background-color: #dbe6e777;
+  margin-bottom:20px;
 }
-
-.filler{
-  background: rgba(38, 173, 38, 0.842);
-  height: 100%;
-  border-radius: inherit;
-  transition: width 2s ease-in-out;
-}
-
 .right-text{
   text-align: right;
   font-weight: bold;
   margin-right: 12px;
-  color: rgb(245, 237, 237);
+  color: rgb(14, 13, 13);
 }
 
-
-.myProjects{
-  margin-top: 10%;
-}
-.project-item-div{
-  position: relative;
+.project-cardview{
   flex-grow: 1;
-  flex:0 1 calc(30%);
-  height: auto;
   display: inline-block;
   text-align: left;
-  margin: 20px;
-  border-radius: 20px 20px;
-  background-color: #1e201f;
+  padding:5px;
 
 }
 .project-item-div:hover{
   transform: scale(1.05);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 
@@ -229,34 +177,41 @@ strong{
   width: 100%;
   height:auto;
   border-radius: 20px 20px 0px 0px;
-  
 }
 
 
 .image-container {
   display: inline-block;
+  width: 30%;
   height: auto;
-  margin-bottom: 180px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .project-info{
-  position: absolute;
-  width: 100%;
-  height: 180px;
-  padding: 20px;
-  bottom: 0;
-  border-radius: 0px 0px 18px 18px;
-  
-  
+  width: 65%;
+  display: inline-block;
+  top:70;
+  margin-left: 10px;
+  padding: 15px;
 }
 .project-title{
   color: white;
-  font-size:24px;
+  font-size:18px;
+}
+
+.line-space{
+  margin-top:50px;
+  margin-bottom:50px;
+  height: 3px;
+  background-color: #dbe6e777;
+  margin-bottom:20px;
 }
 
 .link{
   margin:5px;
   text-align: center;
+  bottom:0;
 }
 
 
@@ -265,7 +220,7 @@ strong{
   padding: 32px;
   margin: 16px;
   margin-top: 42px;
-  background-color: rgba(1, 33, 46, 0.856);
+  background-color: #1a3336cc;
   color: azure;
 }
 
@@ -302,12 +257,14 @@ strong{
     width:60%;
     height: auto;
   }
-  .flex-item-div{
-    flex:100%;
+  .image-container{
+    width: 100%;
+    height: auto;
   }
-
-  .project-item-div{
-    flex:100%;
+  .project-info{
+    width:100%;
+    margin-left: 4px;
+    padding: 5px;
   }
   
 }
@@ -317,33 +274,18 @@ strong{
     width:60%;
     height: auto;
   }
-  .flex-item-div{
-    flex:0 1(45%);
+  .image-container{
+    width: 100%;
+    height: auto;
   }
-
-  .project-item-div{
-    flex:100%;
+  .project-info{
+    width:100%;
+    margin-left: 4px;
+    padding: 5px;
   }
   
 }
 
 
-@keyframes scaleUpDown {
-  0%{
-    transform:rotate(0.5deg) scale(1.0);
-  }
-  25%{
-    transform:rotate(-0.5deg) scale(0.93);
-   }
- 50%{
-  transform:rotate(0deg) scale(0.93);
- }
- 75%{
-  transform:rotate(0.5deg) scale(0.93);
- }
- 100%{
-  transform:rotate(-0.5deg) scale(1.0);
- }
-}
 
 
