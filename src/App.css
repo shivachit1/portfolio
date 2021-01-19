@@ -124,7 +124,6 @@
 
 
 .image-container {
-    margin: 0px;
     margin: 30px;
     text-align: center;
 }
@@ -212,6 +211,9 @@
     width:100%;
     margin-left: 4px;
   }
+  .image {
+    width: 80%;
+  }
   
 }
 
@@ -237,6 +239,9 @@
   .project-info{
     width:100%;
     margin-left: 4px;
+  }
+  .image {
+    width: 80%;
   }
   
 }
@@ -265,6 +270,9 @@
     margin-left: 4px;
   
   }
+  .image {
+    width: 80%;
+  }
   
 }
 
@@ -274,6 +282,10 @@
   .card-view{
     margin-left: 70px;
     margin-right: 70px;
+  }
+
+  .image {
+    width: 50%;
   }
   
 }
