@@ -5,13 +5,12 @@ class ProjectList extends Component {
     const projects = MyProjects;
 
     return (
-      <div id="myProjects" className="card-view">
+      <div id="myProjects">
         <h4 className="green-text" style={{textAlign:"center"}}>Projects</h4>
 
-        <div className="flex-container">
           {projects.map((project) => (
             <div key={project.projectTitle} className="project-cardview">
-                <h6 className="project-title">{project.projectTitle}</h6>
+                <h4 className="project-title">{project.projectTitle}</h4>
               <div className="image-container">
                 <img className="image" src={project.imageurl} alt="" />
               </div>
@@ -27,7 +26,7 @@ class ProjectList extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="green-btn">Demo</button>
+                  <button className="green-button">Demo</button>
                 </a>
                 <a
                   className="link"
@@ -35,19 +34,13 @@ class ProjectList extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="green-btn">Code</button>
+                  <button className="green-button">Code</button>
                 </a>
                 </div>
               </div>
-              {projects.indexOf(project) < projects.length - 1 ?
-                            <div className="line-space"></div>
-                            :
-                            null
-                            }
               
             </div>
           ))}
-        </div>
       </div>
     );
   }

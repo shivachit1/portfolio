@@ -16,7 +16,7 @@ class Contact extends Component {
                     <p> Looking for developer to work on your projects. Always ready to hear ideas.</p>
 
                     <div className="layout"> 
-                    <a className="link" href={"mailto:shivachit1@gmail.com"}><button className="green-btn">Get in touch</button></a>
+                    <a className="link" href={"mailto:shivachit1@gmail.com"}><button className="green-button">Get in touch</button></a>
 
                        
                     </div>
