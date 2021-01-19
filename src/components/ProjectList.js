@@ -5,7 +5,7 @@ class ProjectList extends Component {
     const projects = MyProjects;
 
     return (
-      <div id="myProjects">
+      <div id="myProjects" className="projects">
         <h4 className="green-text" style={{textAlign:"center"}}>Projects</h4>
 
           {projects.map((project) => (
