@@ -18,7 +18,8 @@ class ProjectList extends Component {
 
               <div className="project-info">
                 <div>
-                <p><h4>Used Tools:</h4> {project.projectDescription}</p>
+                <h6 className="green-text">Used Tools:</h6>
+                <p> {project.projectDescription}</p>
                 <p className="green-text">{project.details}</p>
                 <a
                   className="link"

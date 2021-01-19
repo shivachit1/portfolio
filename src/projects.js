@@ -62,7 +62,7 @@ const project = [
     {
        projectTitle: "Ajna Chat Application",
        projectDescription: "Android, Java, Firebase, Google Maps APIs ",
-       details: "This is a simple chat application that lets users log in with their Gmail account credentials. Users can add other users to their friend's lists, send messages, and make a video call with each other. This app also includes location sharing features to let the user share their live location with their close friends. This project is carried out while learning different techniques used for developing an android application. To build this application different tools are used like android studio, Java, Google sign-in API, Google maps Apis, Directions API, firebase Apis like Realtime Database, Firebase file storage, Firebase Messaging Service, and the Cloud function. To bring out the video calling feature in the application, Opentok APIs is used as a medium as it is easy to integrate within the app",
+       details: "This is a simple chat application that lets users log in with their Gmail account credentials. Users can add other users to their friend's lists, send messages, and make a video call with each other. To bring out the video calling feature in the application, Opentok APIs is used as a medium as it is easy to integrate within the app",
        imageurl:"https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/ajna.png?alt=media&token=01498331-532d-47d7-b101-a5ff1f4647e5",
        info: {
            devices: "android with api level 26+",
