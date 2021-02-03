@@ -1,0 +1,72 @@
+.projects{
+   margin-top: 100px;
+   text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:rgb(62, 64, 65);
+   h4{
+      margin-top:60px;
+   }
+   
+   &__container{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin-top:30px;
+      padding:10px;
+      &__item{
+         text-align: center;
+         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+         margin:10px;
+         padding:1%;
+         width: 40%;
+         &__mobileapp-image{
+            width:150px;
+         }
+         &__webapp-image{
+            width: 90%;
+         }
+         &__info{
+            text-align: left;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            h4{
+               margin-bottom: 8px;
+            }
+         }
+         button{
+          background-color: transparent;
+          border: 2px solid rgb(7, 133, 138);
+          color:rgb(7, 133, 138);
+          padding: 6px;
+          border-radius: 4px;
+          text-decoration: none;
+          cursor: pointer;
+          margin: 20px;
+          margin-top:30px;
+          font-weight: bold;
+         }
+         button:hover{
+            background-color: rgb(7, 133, 138);
+            color:white;
+         }
+      }
+   
+   }
+}
+
+@media (max-width:800px){
+   .projects{
+      padding:10px;
+      &__container{
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         &__item{
+            width: 90%;
+         }
+      
+      }
+   }
+}

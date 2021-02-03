@@ -1,5 +1,29 @@
 
-const project = [
+const project = [[{
+            projectTitle: "Ajna Chat Application",
+            projectDescription: "Android, Java, Firebase, Google Maps APIs ",
+            details: "This is a simple chat application that lets users log in with their Gmail account credentials. Users can add other users to their friend's lists, send messages, and make a video call with each other. To bring out the video calling feature in the application, Opentok APIs is used as a medium as it is easy to integrate within the app",
+            imageurl:require('./images/ajna.gif'),
+            info: {
+                devices: "android with api level 26+",
+                demoLink: "https://github.com/shivachit1/Ajna",
+                githubLink:"https://github.com/shivachit1/Ajna"
+                }
+        }
+        , 
+         {
+            projectTitle: "Butterfly",
+            projectDescription: "Unity Engine, Android, C#, Krita, Play Store",
+            details: "This is a simple game developed to learn the building blocks required to create a 2D game in Unity Engine. The game logic is scripted on C# language and the data are stored in Firebase. The game is only available in the play store for android devices. The characters and objects for the game are designed in Paint S and Krita.",
+            imageurl:require('./images/butterfly.gif'),
+            info: {
+                devices: "android with api level 26+",
+                demoLink: "https://play.google.com/store/apps/details?id=com.shiva.butterfly",
+                githubLink:"https://github.com/shivachit1/Butterfly"
+                }
+        }
+    ]
+   ,[
     {
         projectTitle: "Frames",
         projectDescription: "React.js, Redux, CSS, JSON, Netlify for hosting",
@@ -22,54 +46,9 @@ const project = [
             demoLink: "https://priceless-bassi-d229f3.netlify.app/#/",
             githubLink:"https://github.com/shivachit1/EventManager"
             }
-    },
-    {
-        projectTitle: "My portfolio Website",
-        projectDescription: "React.js, Firebase as storage and Hosting",
-        details: "This project was carried out to showcase my skills in React.js, HTML, CSS. This website is hosted using Firebase with its own domain name. The portfolio showcases more about me and the recent projects I have done so far as a software developer.",
-        imageurl:"https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/portfolio.png?alt=media&token=cea9222c-fa54-4f4a-ade6-6067bbe3848f",
-        info: {
-            devices: "available via link",
-            demoLink: "https://shivatiwari.dev",
-            githubLink:"https://github.com/shivachit1/portfolio"
-            }
-    
     }
-    ,
-    {
-        projectTitle: "Shooper",
-        projectDescription: "React.js, Redux, Node, Express, MongodDB",
-        details: "My portfolio website to showcase my work as a developer. This website is a single page website built using React.",
-        imageurl:"https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/shooper.png?alt=media&token=d1159213-72fd-4cee-8993-c887dd56fb80",
-        info: {
-            devices: "available via link",
-            demoLink: "https://github.com/shivachit1/shooper",
-            githubLink:"https://github.com/shivachit1/shooper"
-            }
     
-    }, 
-    {
-       projectTitle: "Butterfly",
-       projectDescription: "Unity Engine, Android, C#, Krita, Play Store",
-       details: "This is a simple game developed to learn the building blocks required to create a 2D game in Unity Engine. The game logic is scripted on C# language and the data are stored in Firebase. The game is only available in the play store for android devices. The characters and objects for the game are designed in Paint S and Krita.",
-       imageurl:"https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/butterflygame.png?alt=media&token=7ebebd4f-2a7f-4311-b3ba-b5fbb341f536",
-       info: {
-           devices: "android with api level 26+",
-           demoLink: "https://play.google.com/store/apps/details?id=com.shiva.butterfly",
-           githubLink:"https://github.com/shivachit1/Butterfly"
-           }
-   },
-    {
-       projectTitle: "Ajna Chat Application",
-       projectDescription: "Android, Java, Firebase, Google Maps APIs ",
-       details: "This is a simple chat application that lets users log in with their Gmail account credentials. Users can add other users to their friend's lists, send messages, and make a video call with each other. To bring out the video calling feature in the application, Opentok APIs is used as a medium as it is easy to integrate within the app",
-       imageurl:"https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/ajna.png?alt=media&token=01498331-532d-47d7-b101-a5ff1f4647e5",
-       info: {
-           devices: "android with api level 26+",
-           demoLink: "https://github.com/shivachit1/Ajna",
-           githubLink:"https://github.com/shivachit1/Ajna"
-           }
-   }
-
+   ]
+   
 ]
 export default project;

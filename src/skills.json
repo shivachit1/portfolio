@@ -13,22 +13,15 @@
     }
     ,
     {
-        "skillTitle": "Android Developer",
-        "languages":"Java, Kotlin, Android APis",
+        "skillTitle": "Mobile App Development",
+        "languages":"Android (Java, Kotlin), iOS (Swift)",
         "percentage": "95"
     
     }
     ,
     {
-        "skillTitle": "iOS Developer",
-        "languages":"Swift, Xcode, Cocoa",
-        "percentage": "80"
-    
-    }
-    ,
-    {
         "skillTitle": "Game development",
-        "languages":"Unity Engine, C#, photoshop, UI interfaces, Canvas, Camera handling, Particle System",
+        "languages":"Unity Engine, C#, photoshop",
         "percentage": "90"
     
     },{

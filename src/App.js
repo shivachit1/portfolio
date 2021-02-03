@@ -1,10 +1,11 @@
 import React,{Component} from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Profile from './components/Profile';
-import ProjectList from './components/ProjectList';
-import Contact from './components/Contact';
-import SkillsComponent from './components/SkillsComponent';
+import Profile from './components/AboutMe/Index.js'
+import Navbar from './components/NavBar';
+import MyProjects from './components/MyProjects/index.js';
+import Footer from './components/Footer/index.js';
+import Mystacks from './components/MyStacks/index';
+import ContactForm from './components/ContactForm/index.js';
+
 
 
 class App extends Component {
@@ -12,15 +13,15 @@ class App extends Component {
  
   render(){
   return (
-   <div>
-        <div className="page-container">
+        <div>
+          <Navbar/>
           <Profile/>
-          <SkillsComponent />
-          <ProjectList/>
-          <Contact/>
+          <Mystacks />
+          <MyProjects/>
+          <ContactForm/>
+          <Footer/>
         
         </div>
-      </div>
     
   );
 }
