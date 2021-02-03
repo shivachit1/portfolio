@@ -7,9 +7,9 @@ const ArrowDown = ({ scrollStatus }) => {
     return (
       <div className="scroll-info">
         <p>Scroll Up</p>
-        <button className="scroll-info__scroll-btn">
+        <div className="scroll-info__scroll-btn">
           <i className="scroll-info__arrow-up"></i>
-        </button>
+        </div>
       </div>
     );
   }

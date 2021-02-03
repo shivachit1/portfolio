@@ -20,12 +20,13 @@ const Navbar = () => {
         <ul>
           <li className="nav-links__link">
             <Link
-              className="link"
+            className="link"
               to="mySkills"
-              spy={true}
+              activeClass="active"
               smooth={true}
               offset={-100}
               duration={500}
+              ignoreCancelEvents={true}
               onClick={() => hideResponsiveNav()}
             >
               Skills
@@ -33,7 +34,8 @@ const Navbar = () => {
           </li>
           <li className="nav-links__link">
             <Link
-              className="link"
+            className="link"
+              activeClass="active"
               to="myProjects"
               spy={true}
               smooth={true}
@@ -46,7 +48,8 @@ const Navbar = () => {
           </li>
           <li className="nav-links__link">
             <Link
-              className="link"
+            className="link"
+              activeClass="active"
               to="myBlogs"
               spy={true}
               smooth={true}
@@ -69,12 +72,14 @@ const Navbar = () => {
           </li>
           <li className="nav-links__link">
             <Link
-              className="link"
+            className="link"
+              activeClass="active"
               to="contact"
               spy={true}
               smooth={true}
               offset={-100}
               duration={500}
+
               onClick={() => hideResponsiveNav()}
             >
               Contact

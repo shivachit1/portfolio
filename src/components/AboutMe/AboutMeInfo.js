@@ -17,16 +17,13 @@ const AboutMeInfo = () => {
         <h4>Feel free to checkout my recent projects.</h4>
       </div>
       <Link
-        className="link"
         to="myProjects"
         spy={true}
         smooth={true}
         offset={-100}
         duration={500}
       >
-        <h6>
           <button className="green-button">View Projects</button>
-        </h6>
       </Link>
     </div>
   );
