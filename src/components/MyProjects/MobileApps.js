@@ -8,6 +8,7 @@ const MobileApps = ({ mobileApps }) => {
       <div className="projects__container">
         {mobileApps.map((project) => (
           <Project
+            key={project.imageurl}
             imageurl={project.imageurl}
             projectTitle={project.projectTitle}
             projectDescription={project.projectDescription}

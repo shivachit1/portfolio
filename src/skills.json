@@ -1,28 +1,33 @@
 {"skills":[
     
     {
-        "skillTitle": "Frontend Developer",
-        "languages":"React, Hooks, Redux, Redux thunk, Vue, Vuex"
+        "skillTitle": "Frontend",
+        "languages":["React.js, Hooks, Redux, Redux thunk, Vue.js, Vuex"]
     },
     {
-        "skillTitle": "Backend Developer",
-        "languages":"Express, Node, REST, GraphQL"
+        "skillTitle": "Backend",
+        "languages":["Express.js, Node.js, REST, GraphQL"]
     
     }
     ,
     {
         "skillTitle": "Mobile App Development",
-        "languages":"Android (Java, Kotlin)"
+        "languages":["Android, Java"]
     
     }
     ,
     {
-        "skillTitle": "Game development",
-        "languages":"Unity Engine, C#, Photoshop"
+        "skillTitle": "Games Development",
+        "languages":["Unity Engine, C#, Photoshop"]
     
     },{
         "skillTitle": "Databases",
         "languages":"MongoDB, MySQL, Firebase"
+    
+    }
+    ,{
+        "skillTitle": "DevOps",
+        "languages":"Heroku, Firebase, Netlify"
     
     }
 ]

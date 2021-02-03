@@ -1,12 +1,70 @@
-
 .profile{
     position: relative;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: row;
     margin-top:120px;
     color:rgb(62, 64, 65);
-    padding:5%;
+    padding:2%;
+
+    &__main{
+        position: relative;
+        span{
+            width:70%;
+            height:100%;
+            background-color: rgb(66, 107, 73);
+        }
+        span:nth-child(1){
+            position: absolute;
+            background-color: rgba(66, 107, 73, 0.87);
+            border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+            transition: 0.5s;
+            animation: rotate1 4s linear infinite;
+        }
+    
+        span:nth-child(2){
+            position: absolute;
+            background-color: rgba(66, 107, 73, 0.911);
+            border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+            transition: 0.5s;
+            animation: rotate2 4s linear infinite;
+        }
+        span:nth-child(3){
+            position: absolute;
+            background-color: rgba(66, 107, 73, 0.808);
+            border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+            transition: 0.5s;
+            animation: rotate1 12s linear infinite;
+        }
+
+        &__image{
+            position: relative;
+            width:60%;
+            height:60%;
+            margin:5%;
+            border-radius: 50%;
+            transition: 1s;
+        }
+
+        &__button-container {
+            margin: 15px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            &__button {
+              margin: 25px;
+              border: 1px solid rgb(117, 185, 130);;
+              padding: 5px;
+              padding-right: 20px;
+              padding-left: 20px;
+              border-radius: 4px;
+              color: rgb(167, 251, 183);
+            }
+        
+        }
+    }
+
     &__info{
         text-align: left;
         padding:0.5%;
@@ -16,18 +74,19 @@
         }
         h4{
          margin:15px 10px 15px 0px;
+         font-size: 20;
         }
         h1{
-         color : rgb(167, 251, 183);
+         color : rgb(117, 185, 130);
          margin: 10px 0px;
-         font-size: 28px;
+         font-size: 24px;
         }
         .layout{
            margin-top:10px;
         }
         button{
          background-color: transparent;
-         border: 2px solid rgb(167, 251, 183);
+         border: 2px solid rgb(117, 185, 130);
          padding: 12px;
          border-radius: 6px;
          text-decoration: none;
@@ -37,20 +96,14 @@
          font-weight: bold;
         }
         button:hover{
-           background-color: rgb(167, 251, 183);
-           color:black;
+           background-color: rgb(117, 185, 130);
+           color:rgba(44, 42, 42, 0.863);
         }
-    }
-    &__image{
-        width:300px;
-        height:300px;
-        padding:0.5%;
-        border-radius: 50%;
-        border:2px solid rgb(167, 251, 183);
     }
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:900px){
+
     .profile{
         display: flex;
         align-items: center;
@@ -68,12 +121,60 @@
                font-size: 16px;
             }
         }
-        &__image{
-            width:40%;
-            height:40%;
+        &__main{
+
+            span{
+                width: 50%;
+                height:100%;
+            }
+
+            &__image{
+                width:40%;
+                height:40%;
+            }
+
+            &__button-container{
+
+                &__button {
+                    margin: 15px;
+                  }
+            }
         }
+        
     }
 }
+
+@keyframes rotate1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate2{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.95, 0.95)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.95, 0.95);
+    }
+  }
 
  
  

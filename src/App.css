@@ -3,19 +3,17 @@
 * {
   padding:0;
   margin:0;
-  background-color: rgb(17, 26, 32);
+  background-color: rgb(43, 47, 49);
   color: rgb(235, 248, 254);
 }
 
 .App {
   text-align: center;
   color:rgb(62, 64, 65);
+  background-color: rgb(43, 47, 49);
   font-family: 'Jost', sans-serif;
   
 }
 
-h3{
-  color: rgb(235, 248, 254);
-  font-size: 24px;
-}
+
 

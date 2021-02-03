@@ -16,6 +16,7 @@ const MyProjects = () => {
             <div className="projects__container">
                 {webApps.map((project) => (
                     <Project 
+                    key={project.imageurl}
                     imageurl={project.imageurl}
                     projectTitle={project.projectTitle}
                     projectDescription={project.projectDescription}

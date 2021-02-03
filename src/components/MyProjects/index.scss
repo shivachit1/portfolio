@@ -15,11 +15,12 @@
       padding:10px;
       &__item{
          text-align: center;
-         border:3px solid rgb(28, 44, 53);
+         background-color: rgba(91, 99, 104, 0.178);
          margin:10px;
          padding:3%;
          width: 40%;
          border-radius: 16px;
+         
          &__mobileapp-image{
             width:150px;
          }
@@ -31,20 +32,26 @@
             padding: 5px;
             display: flex;
             flex-direction: column;
+            background-color: rgba(28, 44, 53, 0);
+
             h4{
                margin-bottom: 8px;
                font-size: 18px;
-
+               background-color: rgba(28, 44, 53, 0);
             }
             h5{
                margin:5px 0px 10px 0px;
-               color: rgb(158, 193, 209);
+               color: rgb(187, 221, 236);
+               background-color: rgba(28, 44, 53, 0);
+            }
+            p,div,a{
+               background-color: rgba(28, 44, 53, 0);
             }
          }
          button{
           background-color: transparent;
           border: 2px solid rgb(158, 193, 209);
-          padding: 6px;
+          padding: 12px;
           border-radius: 4px;
           text-decoration: none;
           cursor: pointer;
