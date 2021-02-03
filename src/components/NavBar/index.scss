@@ -25,7 +25,8 @@ nav {
     margin-right:32px;
     a {
       text-decoration: none;
-      font-size: 18px;
+      font-size: 16px;
+      font-weight: bold;
     }
     a:hover {
       color : rgb(117, 185, 130);
@@ -55,7 +56,6 @@ nav {
       }
       li {
         display:block;
-        font-size: 24px;
         animation: showLink 0.3s linear;
         background-color: transparent;
       }

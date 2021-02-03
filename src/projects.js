@@ -1,6 +1,6 @@
 
 const project = [[{
-            projectTitle: "Ajna Chat Application",
+            projectTitle: "Ajna",
             projectDescription: "Android, Java, Firebase, Google Maps APIs ",
             details: "This is a simple chat application that lets users log in with their Gmail account credentials. Users can add other users to their friend's lists, send messages, and make a video call with each other. To bring out the video calling feature in the application, Opentok APIs is used as a medium as it is easy to integrate within the app",
             imageurl:require('./images/ajna.gif'),

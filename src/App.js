@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React, { useState } from 'react';
 import Profile from './components/AboutMe/Index.js'
 import Navbar from './components/NavBar';
 import MyProjects from './components/MyProjects/index.js';
@@ -8,23 +8,31 @@ import ContactForm from './components/ContactForm/index.js';
 
 
 
-class App extends Component {
+function App () {
 
- 
-  render(){
+  const [scrollStatus, setscrollStatus] = useState(false)
+  const handleScroll = (e) => {
+    const bottom = e.target.scrollHeight - e.target.scrollTop  === e.target.clientHeight;
+    if (bottom) { 
+        console.log("bottom")
+        setscrollStatus(true)
+    }else if(e.target.scrollTop < 500){
+      setscrollStatus(false)
+    }
+ }
+
   return (
-        <div className="App">
+        <div className="App" onScroll={handleScroll}>
           <Navbar/>
           <Profile/>
           <Mystacks />
           <MyProjects/>
           <ContactForm/>
-          <Footer/>
+          <Footer scrollStatus={scrollStatus}/>
         
         </div>
     
   );
-}
 }
 
 export default App;

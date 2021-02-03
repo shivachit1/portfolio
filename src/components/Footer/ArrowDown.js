@@ -1,16 +1,28 @@
-import './index.scss'
-import React from 'react'
+import "./index.scss";
+import React, { useEffect, useRef } from "react";
 
-const ArrowDown = () => {
-    return(
-            <div className="scroll-info">
-                <p>Scroll Down</p>
-                <button className="scroll-info__scroll-btn">
-                    <i className="scroll-info__arrow-down"></i>
-                </button>
-            </div>
-        
-    )
-}
+const ArrowDown = ({ scrollStatus }) => {
+  
+    if (scrollStatus) {
+    return (
+      <div className="scroll-info">
+        <p>Scroll Up</p>
+        <button className="scroll-info__scroll-btn">
+          <i className="scroll-info__arrow-up"></i>
+        </button>
+      </div>
+    );
+  }
 
-export default ArrowDown
+
+  return (
+    <div className="scroll-info">
+      <p>Scroll Down</p>
+      <button className="scroll-info__scroll-btn">
+        <i className="scroll-info__arrow-down"></i>
+      </button>
+    </div>
+  );
+};
+
+export default ArrowDown;

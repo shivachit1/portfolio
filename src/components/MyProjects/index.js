@@ -10,9 +10,9 @@ const MyProjects = () => {
     const webApps = data[1]
     return (
         <div id="myProjects" className="projects">
-            <h3 >My Projects</h3>
+            <h2 >My Projects</h2>
             <MobileApps mobileApps={mobileApps}/>
-            <h4 >Web Apps</h4>
+            <h3 >Web Apps</h3>
             <div className="projects__container">
                 {webApps.map((project) => (
                     <Project 

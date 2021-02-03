@@ -2,8 +2,8 @@
    margin-top: 100px;
    text-align: center;
    color:rgb(62, 64, 65);
-   h4{
-      margin-top:60px;
+   h3{
+      margin-top:40px;
    }
    
    &__container{
@@ -11,7 +11,7 @@
       align-items: center;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      margin-top:30px;
+      margin-top:20px;
       padding:10px;
       &__item{
          text-align: center;
@@ -23,6 +23,7 @@
          
          &__mobileapp-image{
             width:150px;
+            margin-top: 20px;
          }
          &__webapp-image{
             width: 90%;
@@ -30,11 +31,13 @@
          &__info{
             text-align: left;
             padding: 5px;
+            position: relative;
             display: flex;
             flex-direction: column;
             background-color: rgba(28, 44, 53, 0);
 
             h4{
+               margin-top:20px;
                margin-bottom: 8px;
                font-size: 18px;
                background-color: rgba(28, 44, 53, 0);

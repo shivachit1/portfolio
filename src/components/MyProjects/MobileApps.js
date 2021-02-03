@@ -4,7 +4,7 @@ import Project from "./Project";
 const MobileApps = ({ mobileApps }) => {
   return (
     <div>
-      <h4>Mobile Apps</h4>
+      <h3>Mobile Apps</h3>
       <div className="projects__container">
         {mobileApps.map((project) => (
           <Project

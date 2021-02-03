@@ -4,12 +4,12 @@ import React from 'react'
 const ContactForm = () =>{
     return(
         <div className="container">
-            <h3>Contact Me</h3>
+            <h2 id="contact">Contact Me</h2>
             <form>
-                <input name="fullName" placeholder="Your full Name"/>
-                <input name="email" placeholder="Your E-mail address"/>
+                <input type="name" name="fullName" placeholder="Your full Name"/>
+                <input type="email" name="email" placeholder="Your E-mail address"/>
                 <textarea name="message" placeholder="write message here"/>
-                <button type="submit">Send</button>
+                <button id="form-button" type="submit">Send</button>
             </form>
         </div>
 

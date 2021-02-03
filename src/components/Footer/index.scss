@@ -61,6 +61,15 @@
         background-color: rgba(0, 0, 0, 0);
         animation: arrow 1s linear infinite;
     }
+    &__arrow-up{
+      margin-top:10px;
+      display: inline-block;
+      border:solid rgb(117, 185, 130);
+      border-width: 8px 0px 0px 8px;
+      padding: 3px;
+      background-color: rgba(0, 0, 0, 0);
+      animation: arrow 1s linear infinite;
+  }
     
   }
 
