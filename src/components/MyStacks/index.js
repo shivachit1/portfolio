@@ -10,7 +10,7 @@ const Mystacks = () => {
       <div className="container__mystacks">
         {skills.map((skill) => (
           <div className="container__mystacks__item" key={skill.skillTitle}>
-            <h4>{skill.skillTitle}</h4>
+            <h3>{skill.skillTitle}</h3>
             <p>{skill.languages}</p>
           </div>
         ))}

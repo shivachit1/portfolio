@@ -5,18 +5,16 @@ import { Link } from "react-scroll";
 const AboutMeInfo = () => {
   return (
     <div className="profile__info">
-      <p>Hello,</p>
-      <p>
-        I'm <strong>Shiva Tiwari.</strong>
-      </p>
-      <p>
+      <h2>Hello,</h2>
+      <h2>I'm <strong>Shiva Tiwari.</strong></h2>
+      <h4>
         Currently living in Helsinki, specializing on designing and developing
-      </p>
+      </h4>
       <h1>Android applications</h1>
-      <p>and</p>
+      <h4>and</h4>
        <h1>Full-stack web applications.</h1> 
       <div className="layout">
-        <p>Feel free to checkout my recent projects.</p>
+        <h4>Feel free to checkout my recent projects.</h4>
       </div>
       <Link
         className="link"

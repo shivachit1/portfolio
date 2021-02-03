@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+
 * {
   padding:0;
   margin:0;
+  background-color: rgb(17, 26, 32);
+  color: rgb(235, 248, 254);
 }
 
 .App {
   text-align: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
   color:rgb(62, 64, 65);
+  font-family: 'Jost', sans-serif;
+  
 }
 
 h3{
-  color: rgb(7, 133, 138);
+  color: rgb(235, 248, 254);
+  font-size: 24px;
 }
 

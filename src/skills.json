@@ -2,32 +2,27 @@
     
     {
         "skillTitle": "Frontend Developer",
-        "languages":"React, Hooks, Redux, Redux thunk, Vue, Vuex, Axios",
-        "percentage": "100"
+        "languages":"React, Hooks, Redux, Redux thunk, Vue, Vuex"
     },
     {
         "skillTitle": "Backend Developer",
-        "languages":"Express, Node, Java, REST",
-        "percentage": "90"
+        "languages":"Express, Node, REST, GraphQL"
     
     }
     ,
     {
         "skillTitle": "Mobile App Development",
-        "languages":"Android (Java, Kotlin), iOS (Swift)",
-        "percentage": "95"
+        "languages":"Android (Java, Kotlin)"
     
     }
     ,
     {
         "skillTitle": "Game development",
-        "languages":"Unity Engine, C#, photoshop",
-        "percentage": "90"
+        "languages":"Unity Engine, C#, Photoshop"
     
     },{
         "skillTitle": "Databases",
-        "languages":"MongoDB, MySQL, Firebase",
-        "percentage": "98"
+        "languages":"MongoDB, MySQL, Firebase"
     
     }
 ]

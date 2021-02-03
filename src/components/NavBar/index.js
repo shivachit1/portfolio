@@ -2,13 +2,12 @@ import HamburgerMenu from '../HamburgerMenu'
 import './index.scss'
 import React  from 'react';
 import cv from "../../shivatiwariCV.pdf";
-import icon from '../../images/shiva.png'
 
 const Navbar = () => {
 
     return (
         <nav>
-            <img src={icon} alt=""/>
+            <h1>Shiva</h1>
             <HamburgerMenu/>
             <div className="nav-links">
                 <ul>

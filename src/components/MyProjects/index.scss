@@ -1,7 +1,6 @@
 .projects{
    margin-top: 100px;
    text-align: center;
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
    color:rgb(62, 64, 65);
    h4{
       margin-top:60px;
@@ -16,10 +15,11 @@
       padding:10px;
       &__item{
          text-align: center;
-         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+         border:3px solid rgb(28, 44, 53);
          margin:10px;
-         padding:1%;
+         padding:3%;
          width: 40%;
+         border-radius: 16px;
          &__mobileapp-image{
             width:150px;
          }
@@ -28,28 +28,33 @@
          }
          &__info{
             text-align: left;
-            padding: 10px;
+            padding: 5px;
             display: flex;
             flex-direction: column;
             h4{
                margin-bottom: 8px;
+               font-size: 18px;
+
+            }
+            h5{
+               margin:5px 0px 10px 0px;
+               color: rgb(158, 193, 209);
             }
          }
          button{
           background-color: transparent;
-          border: 2px solid rgb(7, 133, 138);
-          color:rgb(7, 133, 138);
+          border: 2px solid rgb(158, 193, 209);
           padding: 6px;
           border-radius: 4px;
           text-decoration: none;
           cursor: pointer;
-          margin: 20px;
+          margin-right: 20px;
           margin-top:30px;
           font-weight: bold;
          }
          button:hover{
-            background-color: rgb(7, 133, 138);
-            color:white;
+            background-color: rgb(158, 193, 209);
+            color:black;
          }
       }
    

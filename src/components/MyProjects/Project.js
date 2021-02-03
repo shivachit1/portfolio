@@ -9,7 +9,7 @@ const Project = ({ imageurl, projectTitle, projectDescription, details,demoLink,
       
       <div className="projects__container__item__info">
         <h4>{projectTitle}</h4>
-        <p> {projectDescription}</p>
+        <h5> {projectDescription}</h5>
         <p className="green-text">{details}</p>
         <div>
         <a
