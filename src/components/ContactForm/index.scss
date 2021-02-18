@@ -1,56 +1,60 @@
-.container{
+.container {
+  text-align: center;
+  form {
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(235, 248, 254);
+    background-color: rgba(91, 99, 104, 0.178);
+    border-radius: 10px;
+    input,
+    textarea {
+      margin: 10px;
+      padding: 10px;
+      color: rgb(197, 205, 209);
+      border: none;
+      border-radius: 10px;
+      text-align: left;
+      resize: none;
+      background-color: rgba(0, 0, 0, 0.26);
+    }
+    input::placeholder,
+    textarea::placeholder {
+      color: rgba(235, 248, 254, 0.712);
+      text-align: center;
+    }
+    div {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    button {
+      background-color: transparent;
+      border: 2px solid rgb(127, 211, 142);
+      padding: 10px;
+      border-radius: 6px;
+      text-decoration: none;
+      cursor: pointer;
+      margin: 0px 10px;
+      margin-top: 10px;
+      font-weight: bold;
+      outline: none;
+      z-index: 5;
+    }
+    button:hover {
+      background-color: rgb(127, 211, 142);
+      color: rgba(44, 42, 42, 0.915);
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
     text-align: center;
-    form{
-        width: 30%;
-        padding: 20px;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 120px;;
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-        color: rgb(235, 248, 254);
-        background-color: rgba(91, 99, 104, 0.178);
-        border-radius: 10px;
-        input,textarea{
-            margin:10px;
-            padding:10px;
-            color: rgb(197, 205, 209);
-            border: none;
-            border-radius: 10px;
-            text-align: left;
-        }
-        input::placeholder,textarea::placeholder{
-            color: rgba(235, 248, 254, 0.712);
-            text-align: center;
-        }
-    
-        button{
-            float: right;
-            background-color:  rgba(27, 51, 185, 0.616);
-            color: rgb(235, 248, 254);
-            padding: 12px;
-            border-radius: 4px;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-            margin: 20px 10px 0px;
-            font-weight: bold;
-            outline: none;
-           }
-           button:hover{
-            background-color:  rgba(27, 51, 185, 0.781);
-              color:rgb(255, 255, 255);
-           }
+    form {
+      width: 70%;
     }
+  }
 }
-
-@media (max-width:700px){
-    .container{
-        text-align: center;
-        form{
-            width: 70%;
-        }
-    }
-}
-

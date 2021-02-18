@@ -4,7 +4,7 @@ import "./index.scss";
 import React from "react";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { IoLogoGithub } from "react-icons/io5";
-import { IoLogoSlack } from "react-icons/io5";
+import ArrowDown from "./ArrowDown";
 
 const Profile = () => {
   return (
@@ -19,20 +19,24 @@ const Profile = () => {
           </div>
 
           <div className="profile__main__button-container">
-            <a href="https://github.com/shivachit1" className="profile__main__button-container__button">
+            <a
+              href="https://github.com/shivachit1"
+              className="profile__main__button-container__button"
+            >
               <IoLogoGithub />
             </a>
-            <a href="https://www.linkedin.com/in/shiva-tiwari-91b1a884/" className="profile__main__button-container__button">
+            <a
+              href="https://www.linkedin.com/in/shiva-tiwari-91b1a884/"
+              className="profile__main__button-container__button"
+            >
               <IoLogoLinkedin />
-            </a>
-            <a href="/" className="profile__main__button-container__button">
-              <IoLogoSlack />
             </a>
           </div>
         </div>
 
         <AboutMeInfo />
       </div>
+      <ArrowDown />
     </div>
   );
 };

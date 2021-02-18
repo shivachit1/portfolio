@@ -2,7 +2,6 @@
   margin-top: 100px;
   text-align: center;
   &__mystacks {
-    width: 80%;
     margin: auto;
     margin-top: 30px;
     display: flex;
@@ -14,8 +13,8 @@
       margin: 30px;
       text-align: center;
       background-color: rgba(66, 107, 73, 0.911);
-      padding: 10px;
-      border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+      padding: 30px;
+      border-radius: 38% 32% 43% 37% / 41% 44% 56% 59%;
       animation: changeBorder 2s linear infinite;
       h3 {
         font-size: 20px;
@@ -26,6 +25,7 @@
         padding: 10px;
         background-color: rgba(91, 99, 104, 0);
         font-weight: 600;
+        margin-bottom: 10px;
       }
     }
   }
@@ -35,13 +35,13 @@
   .container {
     margin-top: 100px;
     &__mystacks {
-      width: 80%;
+      width: 70%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       &__item {
-        width: 80%;
+        width: 70%;
         margin: 10px;
         padding: 10px;
         border-radius: 50%;
@@ -51,13 +51,14 @@
 }
 
 @keyframes changeBorder {
-  0%,100% {
+  0%,
+  100% {
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     opacity: 1;
   }
 
   50% {
-    border-radius: 41% 44% 56% 59% / 48% 62% 63% 70%;
+    border-radius: 41% 74% 56% 59% / 48% 62% 63% 70%;
     opacity: 0.9;
   }
 }

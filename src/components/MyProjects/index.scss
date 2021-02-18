@@ -1,88 +1,88 @@
-.projects{
-   margin-top: 100px;
-   text-align: center;
-   color:rgb(62, 64, 65);
-   h3{
-      margin-top:40px;
-   }
-   
-   &__container{
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      margin-top:20px;
-      padding:10px;
-      &__item{
-         text-align: center;
-         background-color: rgba(91, 99, 104, 0.178);
-         margin:10px;
-         padding:3%;
-         width: 40%;
-         border-radius: 16px;
-         
-         &__mobileapp-image{
-            width:150px;
-            margin-top: 20px;
-         }
-         &__webapp-image{
-            width: 90%;
-         }
-         &__info{
-            text-align: left;
-            padding: 5px;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            background-color: rgba(28, 44, 53, 0);
+.projects {
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(62, 64, 65);
+  h3 {
+    margin-top: 40px;
+  }
 
-            h4{
-               margin-top:20px;
-               margin-bottom: 8px;
-               font-size: 18px;
-               background-color: rgba(28, 44, 53, 0);
-            }
-            h5{
-               margin:5px 0px 10px 0px;
-               color: rgb(187, 221, 236);
-               background-color: rgba(28, 44, 53, 0);
-            }
-            p,div,a{
-               background-color: rgba(28, 44, 53, 0);
-            }
-         }
-         button{
-          background-color: transparent;
-          border: 2px solid rgb(158, 193, 209);
-          padding: 12px;
-          border-radius: 4px;
-          text-decoration: none;
-          cursor: pointer;
-          margin-right: 20px;
-          margin-top:30px;
-          font-weight: bold;
-          outline: none;
-         }
-         button:hover{
-            background-color: rgb(158, 193, 209);
-            color:black;
-         }
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 10px;
+    &__item {
+      text-align: center;
+      background-color: rgba(91, 99, 104, 0.178);
+      margin: 10px;
+      padding: 3%;
+      width: 40%;
+      border-radius: 16px;
+
+      &__mobileapp-image {
+        width: 150px;
+        margin-top: 20px;
       }
-   
-   }
+      &__webapp-image {
+        width: 90%;
+      }
+      &__info {
+        text-align: left;
+        padding: 5px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(28, 44, 53, 0);
+
+        h4 {
+          margin-top: 20px;
+          margin-bottom: 8px;
+          font-size: 18px;
+          background-color: rgba(28, 44, 53, 0);
+        }
+        h5 {
+          margin: 5px 0px 10px 0px;
+          color: rgb(187, 221, 236);
+          background-color: rgba(28, 44, 53, 0);
+        }
+        p,
+        div,
+        a {
+          background-color: rgba(28, 44, 53, 0);
+        }
+      }
+      button {
+        background-color: transparent;
+        border: 2px solid rgb(158, 193, 209);
+        padding: 12px;
+        border-radius: 4px;
+        text-decoration: none;
+        cursor: pointer;
+        margin-right: 20px;
+        margin-top: 30px;
+        font-weight: bold;
+        outline: none;
+        z-index: 10;
+      }
+      button:hover {
+        background-color: rgb(158, 193, 209);
+        color: black;
+      }
+    }
+  }
 }
 
-@media (max-width:800px){
-   .projects{
-      padding:10px;
-      &__container{
-         display: flex;
-         align-items: center;
-         flex-direction: column;
-         &__item{
-            width: 90%;
-         }
-      
+@media (max-width: 800px) {
+  .projects {
+    padding: 10px;
+    &__container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      &__item {
+        width: 90%;
       }
-   }
+    }
+  }
 }

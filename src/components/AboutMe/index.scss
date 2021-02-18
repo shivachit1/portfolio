@@ -1,183 +1,172 @@
-.profile{
+.profile {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 120px;
+  padding: 5%;
+  &__main {
     position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-    margin-top:120px;
-    color:rgb(62, 64, 65);
-
-    &__main{
-        position: relative;
-        span{
-            width:70%;
-            height:100%;
-            background-color: rgb(66, 107, 73);
-        }
-        span:nth-child(1){
-            position: absolute;
-            background-color: rgba(66, 107, 73, 0.87);
-            border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
-            transition: 0.5s;
-            animation: rotate1 4s linear infinite;
-        }
-    
-        span:nth-child(2){
-            position: absolute;
-            background-color: rgba(66, 107, 73, 0.911);
-            border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
-            transition: 0.5s;
-            animation: rotate2 4s linear infinite;
-        }
-        span:nth-child(3){
-            position: absolute;
-            background-color: rgba(66, 107, 73, 0.808);
-            border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
-            transition: 0.5s;
-            animation: rotate1 12s linear infinite;
-        }
-
-        &__image{
-            position: relative;
-            width:60%;
-            height:60%;
-            margin:5%;
-            border-radius: 50%;
-            transition: 1s;
-            opacity: 0.8;
-        }
-
-        &__button-container {
-            margin: 15px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            &__button {
-              margin: 25px;
-              border: 1px solid rgb(117, 185, 130);;
-              padding: 5px;
-              padding-right: 20px;
-              padding-left: 20px;
-              border-radius: 4px;
-              color: rgb(167, 251, 183);
-            }
-        
-        }
+    span {
+      width: 70%;
+      height: 100%;
+      background-color: rgba(66, 107, 73, 0.582);
+    }
+    span:nth-child(1) {
+      position: absolute;
+      background-color: rgba(66, 107, 73, 0.87);
+      border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+      transition: 0.5s;
+      animation: rotate1 4s linear infinite;
     }
 
-    &__info{
-        text-align: left;
-        padding:0.5%;
-        margin-left:50px;
-        p{
-           margin:10px;
-        }
-        h4{
-         margin:15px 10px 15px 0px;
-         font-size: 20;
-        }
-        h1{
-         color : rgb(117, 185, 130);
-         margin: 10px 0px;
-         font-size: 24px;
-        }
-        .layout{
-           margin-top:10px;
-        }
-        button{
-         background-color: transparent;
-         border: 2px solid rgb(117, 185, 130);
-         padding: 12px;
-         border-radius: 6px;
-         text-decoration: none;
-         cursor: pointer;
-         margin:0px 10px;
-         margin-top:20px;
-         font-weight: bold;
-         outline: none;
-        }
-        button:hover{
-           background-color: rgb(117, 185, 130);
-           color:rgba(44, 42, 42, 0.863);
-
-        }
+    span:nth-child(2) {
+      position: absolute;
+      background-color: rgba(66, 107, 73, 0.911);
+      border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+      transition: 0.5s;
+      animation: rotate2 4s linear infinite;
     }
-}
-
-@media only screen and (max-width:900px){
-
-    .profile{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        &__info{
-            text-align: left;
-            width:90%;
-            margin:10px;
-            h1{
-                margin-bottom:10px;
-                font-size: 20px;
-            }
-            h2{
-               margin:5px;
-               font-size: 16px;
-            }
-        }
-        &__main{
-
-            span{
-                width: 50%;
-                height:100%;
-            }
-
-            &__image{
-                width:40%;
-                height:40%;
-            }
-
-            &__button-container{
-
-                &__button {
-                    margin: 15px;
-                  }
-            }
-        }
-        
+    span:nth-child(3) {
+      position: absolute;
+      background-color: rgba(66, 107, 73, 0.808);
+      border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+      transition: 0.5s;
+      animation: rotate1 12s linear infinite;
     }
-}
 
-@keyframes rotate1{
-    0%{
-        transform: rotate(0deg);
+    &__image {
+      position: relative;
+      width: 60%;
+      height: 60%;
+      margin: 5%;
+      border-radius: 50%;
+      transition: 1s;
+      opacity: 0.8;
     }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-@keyframes rotate2{
-    0%{
-        transform: rotate(360deg);
-    }
-    100%{
-        transform: rotate(0deg);
-    }
-}
 
-@keyframes pulsing {
-    0% {
-      -webkit-transform: scale(0.5, 0.5);
-      transform: scale(0.95, 0.95)
-    }
-    50% {
-      -webkit-transform: scale(1.0, 1.0);
-      transform: scale(1.0, 1.0);
-    }
-    100% {
-      -webkit-transform: scale(0.5, 0.5);
-      transform: scale(0.95, 0.95);
+    &__button-container {
+      margin: 15px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      &__button {
+        margin: 25px;
+        border: 1px solid rgb(117, 185, 130);
+        padding: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 4px;
+        color: rgb(167, 251, 183);
+      }
     }
   }
 
- 
- 
- 
+  &__info {
+    text-align: left;
+    margin-left: 50px;
+    p {
+      margin: 10px;
+    }
+    h4 {
+      margin: 15px 10px 15px 0px;
+      font-size: 20;
+    }
+    h1 {
+      color: rgb(117, 185, 130);
+      margin: 10px 0px;
+      font-size: 24px;
+    }
+    .layout {
+      margin-top: 10px;
+    }
+    button {
+      background-color: transparent;
+      border: 2px solid rgb(127, 211, 142);
+      padding: 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      cursor: pointer;
+      margin: 0px 10px;
+      margin-top: 20px;
+      font-weight: bold;
+      outline: none;
+      z-index: 5;
+    }
+    button:hover {
+      background-color: rgb(127, 211, 142);
+      color: rgba(44, 42, 42, 0.915);
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__info {
+      text-align: left;
+      width: 90%;
+      margin: 10px;
+      h1 {
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+      h2 {
+        margin: 5px;
+        font-size: 16px;
+      }
+    }
+    &__main {
+      span {
+        width: 50%;
+        height: 100%;
+      }
+
+      &__image {
+        width: 40%;
+        height: 40%;
+      }
+
+      &__button-container {
+        &__button {
+          margin: 15px;
+        }
+      }
+    }
+  }
+}
+
+@keyframes rotate1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.95, 0.95);
+  }
+  50% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.95, 0.95);
+  }
+}

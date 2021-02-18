@@ -13,9 +13,23 @@
   background-color: rgb(43, 47, 49);
   font-family: 'Jost', sans-serif;
   height:100%;
-
+align-items: center;
 }
 
 
+ .App .container{
+   margin-left:10%; 
+   margin-right:10%; 
+   align-items: center
+ }
+
+
+ @media (max-width:900px){
+  .App .container{
+    margin-left:0%; 
+    margin-right:0%; 
+    align-items: center
+  }
+ }
 
 
