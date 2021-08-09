@@ -37,7 +37,7 @@ const project = [
         "https://firebasestorage.googleapis.com/v0/b/portfoliowebsite-8eb68.appspot.com/o/countryapp.png?alt=media&token=289c06f9-b558-4272-bb29-0030860b928c",
       info: {
         devices: "available via link",
-        demoLink: "hhttps://countries-redux-typescript.netlify.app/",
+        demoLink: "https://countries-redux-typescript.netlify.app/",
         githubLink: "https://github.com/shivachit1/CountryApp",
       },
     },
